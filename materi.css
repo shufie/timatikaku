@@ -1,0 +1,128 @@
+.wrap{
+	background: #f9f9f9;
+	width: 1280px;
+	margin: 10px auto;
+}
+ 
+/*bagian header*/
+.wrap .header_top{
+	background: white;
+	height: 50px;
+	padding: 0;
+}
+
+.wrap .h1{
+	background: #f9f9f9;
+	margin:20px 10px 10px 10px;
+	padding: 0px auto;
+	float: right;
+	font-family: helvetica;
+}
+
+.wrap .header_center{
+	background: green;
+	/*height: 50px;*/
+	padding: 0;
+}
+.wrap .header_bottom{
+	background: green;
+	/*height: 50px;*/
+	padding: 0;
+}
+ 
+/*akhir header*/
+ 
+/*bagian menu*/
+.menu{
+	background: yellow;
+}
+ 
+.menu ul{
+	padding: 0;
+	margin: 0;
+	background: yellow;
+	overflow: hidden;
+	float: right;
+}
+ 
+.menu ul li{
+	float: left;
+	list-style-type: none;
+	padding: 10px;
+}
+/*akhir menu*/
+ 
+.clear{
+	clear: both;
+}
+ 
+.badan{
+	height: 450px;
+}
+/*bagian sidebar*/
+
+.container {
+  width:100%;
+  margin:15px 0 15px;
+}
+
+.col1 {
+  width:15%;
+  margin:0% 1.6666667%;
+  float:left;
+  display:inline;
+  word-wrap:break-word; /* fix for long text breaking sidebar float in IE */
+  overflow:hidden;      /* fix for long non-text content breaking IE sidebar float */
+}
+
+/*akhir sidebar*/
+
+/*bagian content*/
+.col2 {
+  width:78%;
+  margin:0% 1.6666667%;
+  float:left;
+  display:inline;
+  word-wrap:break-word; /* fix for long text breaking sidebar float in IE */
+  overflow:hidden;
+}
+ 
+
+#footer{
+	width: 100%;
+	padding: 10px;
+	position: relative;
+	float: left;
+}
+
+
+.input {
+	width: 30%;
+	border: 1px;
+}
+
+/*tambahan*/
+
+div {
+	display:block;
+}
+
+a:link, a:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+a:hover, a:active {
+    background-color: red;
+}
+
+p {
+    outline: 5px dotted red;
+    height: 100%;
+    padding: 10px 1px 1px 10px;
+}

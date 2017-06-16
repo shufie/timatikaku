@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MATEMATIKA SD</title>
+	<link rel="stylesheet" type="text/css" href="materi.css">
+</head>
+
+<body>
+	<div class="wrap">
+		<div class="h1">
+		<h1>Math is everywhere</h1>
+			Hidup adalah berhitung
+		</div>
+	</div>	
+	
+	<div class="wrap">
+		<div id="header">
+			<div id="header_top">
+			<div id="logo">
+				<img src="img/depan2.jpg" width="150" height="150" alt="" padding:0px, 50px, 0px, 50px />
+			</div>
+		<div>
+	<div>
+
+	
+	<div class="wrap">
+		<div id="header">
+			<div id="header_center">
+			<div class="menu">
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Programs</a></li>
+				<li><a href="#">Gallery</a></li>
+				<li><a href="#">FAQ</a></li>		</ul>
+		</div>
+	</div>
+		<div style='clear:both;'></div></div>
+	<div class="wrap"><p>
+	<div class='col1'>			
+				Programs
+				<ul>
+					<li><a href="#">Operasi Hitung Bilangan</a></li>
+					<li><a href="#">Kelipatan dan Faktor Suatu Bilangan</a></li>
+					<li><a href="#">Pengukuran Sudut, Waktu, Panjang dan Berat</a></li>
+					<li><a href="#">Keliling dan Luas Daerah Bangun Datar Sederhana</a></li>	
+					</ul>
+			</div>
+		</div>
+	<div class='col2'>	
+				<h1>MATERI BILANGAN ROMAWI</h1>
+				<div><img src="img/r5.jpg" width="250" height="250" alt="" padding:0px, 50px, 0px, 50px><br> 
+				Pada pelajaran sebelumnya, kamu sudah mengenal bilangan asli. Bilangan asli adalah bilangan bulat positif, yaitu 1, 2, 3, 4, 5, .... Pada bab ini kamu akan mempelajari tentang “bilangan Romawi”. Apakah bilangan Romawi itu? Bilangan Romawi kadang digunakan pada jam dinding atau jam tangan. Perhatikanlah jam di bawah ini! Menunjukkan pukul berapakah jam tersebut?<br>
+				<br>
+				<img src="img/r1.jpg" width="250" height="250" alt="" padding:0px, 50px, 0px, 50px><br> 
+
+				Pertanyaan di atas dapat kamu jawab setelah mempelajari tentang bilangan Romawi. Selain itu, kamu juga akan mengetahui hubungan antara bilangan asli dengan bilangan Romawi. Untuk lebih lengkapnya, mari mempelajari materi berikut ini dengan baik.
+				<br>
+				<br>
+
+				<h4>Mengenal Lambang Bilangan Romawi</h4>
+				Lambang bilangan Romawi tidak mengenal bilangan nol.
+				Berikut ini adalah beberapa lambang bilangan Romawi sebagai dasar untuk menuliskan lambang bilangan Romawi yang lain.<br>
+				<img src="img/r2.jpg" width="250" height="250" alt="" padding:0px, 50px, 0px, 50px</p><br>
+
+				Aturan penulisan bilangan Romawi adalah sebagai berikut.
+				1. Jika angka di sebelah kiri lebih kecil dari angka yang di sebelah kanan, berarti lambang bilangan itu dikurangi.<br>
+
+				<img src="img/r3.jpg" width="250" height="250" alt="" padding:0px, 50px, 0px, 50px</p><br>
+
+				Dengan cara yang sama pada contoh di atas, maka:<br>
+				XL artinya 50 – 10 = 40<br>
+				Jadi, XL = 40.<br>
+				XC artinya 100 – 10 = 90<br>
+				Jadi, XC = 90.<br>
+				<br>
+				2. Jika angka di sebelah kanan kurang dari atau sama dengan angka yang di sebelah kiri, berarti dijumlahkan.<br>
+				a. XX = 10 + 10 = 20<br>
+				b. VII = 5 + 1 + 1 = 7<br>
+				d. LV = 50 + 5 = 55<br>
+				<br>
+				3. Penulisan lambang bilangan Romawi yang sama hanya
+				boleh sebanyak tiga kali berturut-turut.<br>
+				a. III artinya 1 + 1 + 1 = 3<br>
+				b. CCC artinya 100 + 100 + 100 = 300<br>
+				c. XXX artinya 10 + 10 + 10 = 30<br>
+				Perhatikan bahwa 40 tidak boleh ditulis XXXX (empat kali penulisan lambang yang sama secara berurutan).<br>
+				<br>
+				4. Aturan pengurangan:<br>
+				a. I hanya dapat digunakan untuk mengurangi V dan X.<br>
+				b. X hanya dapat digunakan untuk mengurangi L dan C.<br>
+				c. C hanya dapat digunakan untuk mengurangi D dan M.<br>
+				<br>
+				<h3>LATIHAN DULU YUK!</h3>
+				<form name="form">
+				1.  Yang bukan lambang dasar bilangan Romawi adalah . . . .
+					<div class="qselections">
+					<button type="button" onclick="cek1()" >A</button>M<br>
+					<button type="button" onclick="cek2()" >B</button>C<br>
+					<button type="button" onclick="cek3()" >C</button>I<br>
+					<button type="button" onclick="cek4()" >D</button>Z<br>
+
+					Jawaban anda :
+					<input type="text" name="angka1" size="1">
+					<br>
+					</form>
+					<br>
+
+					<button type="button" onclick="cekjawaban()" >cek jawaban</button><br>
+					<h3 id="tampil"></h3>
+
+				<script>
+				function cek1(){
+				form.angka1.value= "A";
+				}
+				function cek2(){
+				form.angka1.value= "B";
+				}
+				function cek3(){
+				form.angka1.value= "C";
+				}
+				function cek4(){
+				form.angka1.value= "D";
+				}
+				function cekjawaban(){
+				if(form.angka1.value=='D'){
+				document.getElementById("tampil").innerHTML="jawaban kamu benar :)";
+				}else{
+				document.getElementById("tampil").innerHTML="jawaban kamu salah :(";
+				}
+				}
+				</script>
+
+				2.  Lambang bilangan Romawi L menyatakan bilangan….
+					<div class="qselections">
+					<button type="button" onclick="cek1()" >A</button>5<br>
+					<button type="button" onclick="cek2()" >B</button>10<br>
+					<button type="button" onclick="cek3()" >C</button>50<br>
+					<button type="button" onclick="cek4()" >D</button>100<br>
+
+					Jawaban anda :
+					<input type="text" name="angka1" size="1">
+					<br>
+					</form>
+					<br>
+
+					<button type="button" onclick="cekjawaban()" >cek jawaban</button><br>
+					<h3 id="tampil"></h3>
+
+				<script>
+				function cek1(){
+				form.angka1.value= "A";
+				}
+				function cek2(){
+				form.angka1.value= "B";
+				}
+				function cek3(){
+				form.angka1.value= "C";
+				}
+				function cek4(){
+				form.angka1.value= "D";
+				}
+				function cekjawaban(){
+				if(form.angka1.value=='A'){
+				document.getElementById("tampil").innerHTML="jawaban kamu benar :)";
+				}else{
+				document.getElementById("tampil").innerHTML="jawaban kamu salah :(";
+				}
+				}
+				</script>
+
+				3.  M melambangkan bilangan . . . 
+					<div class="qselections">
+					<button type="button" onclick="cek1()" >A</button>1.000<br>
+					<button type="button" onclick="cek2()" >B</button>100<br>
+					<button type="button" onclick="cek3()" >C</button>10<br>
+					<button type="button" onclick="cek4()" >D</button>1<br>
+
+					Jawaban anda :
+					<input type="text" name="angka1" size="1">
+					<br>
+					</form>
+					<br>
+
+					<button type="button" onclick="cekjawaban()" >cek jawaban</button><br>
+					<h3 id="tampil"></h3>
+
+				<script>
+				function cek1(){
+				form.angka1.value= "A";
+				}
+				function cek2(){
+				form.angka1.value= "B";
+				}
+				function cek3(){
+				form.angka1.value= "C";
+				}
+				function cek4(){
+				form.angka1.value= "D";
+				}
+				function cekjawaban(){
+				if(form.angka1.value=='A'){
+				document.getElementById("tampil").innerHTML="jawaban kamu benar :)";
+				}else{
+				document.getElementById("tampil").innerHTML="jawaban kamu salah :(";
+				}
+				}
+				</script>
+
+				4.  Bilangan 500 dilambangkan dengan . . . .
+					<div class="qselections">
+					<button type="button" onclick="cek1()" >A</button>C<br>
+					<button type="button" onclick="cek2()" >B</button>D<br>
+					<button type="button" onclick="cek3()" >C</button>L<br>
+					<button type="button" onclick="cek4()" >D</button>X<br>
+
+					Jawaban anda :
+					<input type="text" name="angka1" size="1">
+					<br>
+					</form>
+					<br>
+
+					<button type="button" onclick="cekjawaban()" >cek jawaban</button><br>
+					<h3 id="tampil"></h3>
+
+				<script>
+				function cek1(){
+				form.angka1.value= "A";
+				}
+				function cek2(){
+				form.angka1.value= "B";
+				}
+				function cek3(){
+				form.angka1.value= "C";
+				}
+				function cek4(){
+				form.angka1.value= "D";
+				}
+				function cekjawaban(){
+				if(form.angka1.value=='A'){
+				document.getElementById("tampil").innerHTML="jawaban kamu benar :)";
+				}else{
+				document.getElementById("tampil").innerHTML="jawaban kamu salah :(";
+				}
+				}
+				</script>
+
+				5.  Sekarang sudah memasuki adab ke-21. Lambang bilangan Romawi 21 adalah . . .
+					<div class="qselections">
+					<button type="button" onclick="cek1()" >A</button>IX<br>
+					<button type="button" onclick="cek2()" >B</button>XIX<br>
+					<button type="button" onclick="cek3()" >C</button>XXI<br>
+					<button type="button" onclick="cek4()" >D</button>XII<br>
+
+					Jawaban anda :
+					<input type="text" name="angka1" size="1">
+					<br>
+					</form>
+					<br>
+
+					<button type="button" onclick="cekjawaban()" >cek jawaban</button><br>
+					<h3 id="tampil"></h3>
+
+				<script>
+				function cek1(){
+				form.angka1.value= "A";
+				}
+				function cek2(){
+				form.angka1.value= "B";
+				}
+				function cek3(){
+				form.angka1.value= "C";
+				}
+				function cek4(){
+				form.angka1.value= "D";
+				}
+				function cekjawaban(){
+				if(form.angka1.value=='A'){
+				document.getElementById("tampil").innerHTML="jawaban kamu benar :)";
+				}else{
+				document.getElementById("tampil").innerHTML="jawaban kamu salah :(";
+				}
+				}
+				</script>
+<div><a href="kuis.html">COBA KUIS</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+	<div style='clear:both;'></div>
+
+<div class="wrap">
+		<div class="footer"><p>
+			<h4><center>Designed by Sufi Indha Akbari</center></h4>
+			<h3><center>&copy;Powered by UNY 2017</center></h3>
+		</div></div>
+<div style='clear:both;'></div></div>
+</body>
+</html>
